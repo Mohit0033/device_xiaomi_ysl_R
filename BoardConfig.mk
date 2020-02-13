@@ -171,6 +171,9 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
+# IPA
+USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+
 # Power
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 

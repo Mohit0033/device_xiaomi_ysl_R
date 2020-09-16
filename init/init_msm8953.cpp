@@ -42,7 +42,7 @@
 #include "property_service.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
+using android::base::SetProperty;
 
 char const *heapstartsize;
 char const *heapgrowthlimit;
@@ -89,7 +89,7 @@ void set_avoid_gfxaccel_config() {
 
     if (sys.totalram <= 3072ull * 1024 * 1024) {
         // Reduce memory footprint
-        property_set("ro.config.avoid_gfx_accel", "true");
+        SetProperty("ro.config.avoid_gfx_accel", "true");
     }
 }
 
@@ -98,10 +98,10 @@ void vendor_load_properties()
     check_device();
     set_avoid_gfxaccel_config();
 
-    property_set("dalvik.vm.heapstartsize", heapstartsize);
-    property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_set("dalvik.vm.heapsize", heapsize);
-    property_set("dalvik.vm.heaptargetutilization", heaptargetutilization);
-    property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
+    SetProperty("dalvik.vm.heapstartsize", heapstartsize);
+    SetProperty("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    SetProperty("dalvik.vm.heapsize", heapsize);
+    SetProperty("dalvik.vm.heaptargetutilization", heaptargetutilization);
+    SetProperty("dalvik.vm.heapminfree", heapminfree);
+    SetProperty("dalvik.vm.heapmaxfree", heapmaxfree);
 }

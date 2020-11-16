@@ -11,16 +11,4 @@
         "target_path":  "kernel/xiaomi/ysl",
         "revision":     "main"
     },
-    {
-        "remote":       "github",
-        "repository":   "MASTERGUY/hardware_qcom-caf_wlan",
-        "target_path":  "hardware/qcom-caf/wlan",
-        "revision":     "eleven"
-    },
-    {
-        "remote":       "github",
-        "repository":   "MASTERGUY/vendor_qcom_opensource_data-ipa-cfg-mgr",
-        "target_path":  "vendor/qcom/opensource/data-ipa-cfg-mgr",
-        "revision":     "eleven"
-    }
 ]

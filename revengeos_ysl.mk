@@ -46,8 +46,8 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Build fingerprint
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
-BUILD_DESCRIPTION := coral-user 11 RP1A.201105.002 6869500 release-keys
+BUILD_FINGERPRINT := xiaomi/ysl/ysl:8.1.0/OPM1.171019.011/V10.3.1.0.OEFMIXM:user/release-keys
+BUILD_DESCRIPTION := ysl-user 8.1.0 OPM1.171019.011 V10.3.1.0.OEFMIXM release-keys
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_ysl.mk
+    $(LOCAL_DIR)/bliss_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_ysl-user \
-    revengeos_ysl-userdebug \
-    revengeos_ysl-eng
+    bliss_ysl-user \
+    bliss_ysl-userdebug \
+    bliss_ysl-eng

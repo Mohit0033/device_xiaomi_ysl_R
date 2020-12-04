@@ -19,6 +19,9 @@ DEVICE_PATH := device/xiaomi/ysl
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
+#Allowblissbuild
+BLISS_BUILD := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
